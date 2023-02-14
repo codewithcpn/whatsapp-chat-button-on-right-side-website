@@ -1,5 +1,10 @@
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+###### Main code    ######
+
 <div>
-        <a
+  <a
         href="https://wa.me/+917763929407"
         class="whatsapp_float"
         target="_blank"
@@ -7,7 +12,10 @@
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
-    </div>
+  </div>
+    
+    
+ #####   End Main code   #####
     
      <style>
        .whatsapp_float {
@@ -45,10 +53,29 @@
       }
       
       
+      =============================== Static code shoe to half screen    =====================
+      
       
       ######  Static set Images ###
-      
-      .payRibbon {
+
+
+
+    ##### Main code here   ########
+
+            <div>
+                <div class="payRibbon">
+                    <img src="<?php echo base_url('assets/img/removebg/mudmanfoods.png');?>" alt="Sticky Image">
+                </div>
+            </div>
+            
+    ##### End main code here    #####
+    
+    
+    
+    ##### Style start    #####
+    
+    
+     .payRibbon {
     height: 0px;
     width: 78px;
     position: fixed;
@@ -61,13 +88,6 @@
     /*-o-transform: rotate(-90deg);*/
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
-
-
- <div>
-        <div class="payRibbon">
-            <img src="<?php echo base_url('assets/img/removebg/mudmanfoods.png');?>" alt="Sticky Image">
-        </div>
-    </div>
 
 
 
